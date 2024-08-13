@@ -10,27 +10,7 @@ The **Student Management System** is a comprehensive application designed to sim
 
 The **Student Management System** is composed of several key components, each playing a critical role in the functionality and structure of the application:
 
-### 1. **Student Class**
-   - **Purpose**: Represents a student in the system.
-   - **Attributes**:
-     - `name`: The name of the student.
-     - `id`: A unique identifier for each student.
-     - `modules`: A list or collection of modules that the student is enrolled in.
-   - **Functions**:
-     - Methods to get and set student details.
-     - Methods to enroll and remove students from modules.
-
-### 2. **Module Class**
-   - **Purpose**: Represents an academic module/course in the system.
-   - **Attributes**:
-     - `moduleName`: The name of the module.
-     - `moduleCode`: A unique code to identify the module.
-     - `enrolledStudents`: A list or collection of students enrolled in the module.
-   - **Functions**:
-     - Methods to get and set module details.
-     - Methods to add or remove students from the module.
-
-### 3. **StudentManagementSystem Class**
+### 1. **StudentManagementSystem Class**
    - **Purpose**: The main class that ties together the functionality of the student and module classes.
    - **Attributes**:
      - `students`: A collection or database of all students in the system.
@@ -39,6 +19,26 @@ The **Student Management System** is composed of several key components, each pl
      - Methods to add, update, or delete student records.
      - Methods to create, update, or delete modules.
      - Methods to assign students to modules and manage enrollments.
+
+### 2. **Student Class**
+   - **Purpose**: Represents a student in the system.
+   - **Attributes**:
+     - `name`: The name of the student.
+     - `id`: A unique identifier for each student.
+     - `modules`: A list or collection of modules that the student is enrolled in.
+   - **Functions**:
+     - Methods to get and set student details.
+     - Methods to enrol and remove students from modules.
+
+### 3. **Module Class**
+   - **Purpose**: Represents an academic module/course in the system.
+   - **Attributes**:
+     - `moduleName`: The name of the module.
+     - `moduleCode`: A unique code to identify the module.
+     - `enrolledStudents`: A list or collection of students enrolled in the module.
+   - **Functions**:
+     - Methods to get and set module details.
+     - Methods to add or remove students from the module.
 
 ### 4. **Data Storage and Persistence**
    - **Purpose**: Ensures that student and module data are stored and can be retrieved even after the application is closed.
@@ -57,7 +57,7 @@ The primary goal of this project is to create a robust and scalable system that 
 
 ### Use Cases
 - **Educational Institutions**: Schools, colleges, and universities can use this system to manage their student databases and course offerings.
-- **Tutoring Centers**: Small to medium-sized tutoring centers can keep track of their students and the subjects they are enrolled in.
+- **Tutoring Centers**: Small to medium-sized tutoring centres can keep track of their students and the subjects they are enrolled in.
 - **Online Learning Platforms**: The system can be adapted to manage students and courses for e-learning platforms.
 
 ## Features
@@ -101,4 +101,4 @@ Once the application is running, you can:
 
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out at [sakiththewmika71@gmail.com](mailto:sakiththewmika71@gmail.com).
+If you have any questions or feedback, feel free to reach out at [email me](mailto:sakiththewmika71@gmail.com).
