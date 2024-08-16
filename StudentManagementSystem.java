@@ -90,7 +90,7 @@ public class StudentManagementSystem {
     private static void registerStudent() {
         if (registerStudents < allStudents) {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter student ID to register(w1234567): ");
+            System.out.print("Enter student ID to register (w1234567): ");
             String registerStudentId;
             while(true) {
                 registerStudentId = scanner.next();
@@ -141,7 +141,7 @@ public class StudentManagementSystem {
 
     private static void deleteStudent() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter student ID to delete: ");
+        System.out.print("Enter student ID to delete(w1234567): ");
         String deleteStudentID;
         while(true) {
             deleteStudentID = scanner.next();
@@ -171,7 +171,7 @@ public class StudentManagementSystem {
 
     private static void findStudent() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter student ID to find: ");
+        System.out.print("Enter student ID to find(w1234567): ");
         String findStudentID;
         while(true) {
             findStudentID = scanner.next();
