@@ -26,6 +26,8 @@ public class StudentManagementSystem {
      * @param args Command line arguments (not used in this application).
      */
     public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();    //performance check
+
         System.out.println(" ");
         System.out.println("\tWelcome to Student Activity Management System");
         boolean isValid = true;
@@ -81,6 +83,9 @@ public class StudentManagementSystem {
                 System.out.println("WARNING!..... Please enter a valid integer.");
             }
         }
+        long endTime = System.currentTimeMillis();
+        System.out.println("check performance");
+        System.out.print(endTime - startTime);
     }
 
     private static void checkAvailableSeats() {
@@ -359,5 +364,6 @@ public class StudentManagementSystem {
         }
         return sb.toString().trim();
     }
+
 
 }
